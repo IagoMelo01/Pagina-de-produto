@@ -9,6 +9,11 @@
     <title>Produto</title>
 </head>
 <body>
+    <style>
+        .min-width{
+            min-width: 375px;
+        }
+    </style>
 
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
@@ -31,24 +36,27 @@
     <div class="container">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <div class="container">
+                <div class="col min-width">
+                    <div class="container-sm">
                         <img src="./img.png" class="img-fluid" alt="...">
                     </div>
                     <br>
-                    <div class="row">
-                        <div class="col">
-                            <img src="./img.png" class="img-thumbnail" alt="...">
-                        </div>
-                        <div class="col">
-                            <img src="./img.png" class="img-thumbnail" alt="...">
-                        </div>
-                        <div class="col">
-                            <img src="./img.png" class="img-thumbnail" alt="...">
+                    <div class="container-sm">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./img.png" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="./img.png" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="./img.png" class="img-thumbnail" alt="...">
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
-                <div class="col">
+                <div class="col w-auto">
                     <div class="container">
                         <h2>Exemplo de produto</h4>
                         <br>
@@ -88,6 +96,7 @@
                 </div>
             </div>
         </div>
+        <br>
         <div  class="container">
             <h6 class="display-6">Descrição</h6>
             <div class="container">
